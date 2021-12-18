@@ -48,7 +48,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-    res.send("I am node js");
+    res.send("Server Running Successfully");
 });
 
 app.listen(port, () => {
